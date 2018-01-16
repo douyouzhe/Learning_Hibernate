@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Learning_Hibernate:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Learning_Hibernate_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Learning_Hibernate/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Learning_Hibernate" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
