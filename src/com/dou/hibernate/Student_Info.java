@@ -7,21 +7,20 @@ import java.util.Date;
 @Table(name="STUDENT_INFORMATION")
 public class Student_Info{
 
-    @Id
+    @Id @GeneratedValue
     private int rollNo;
     //@Transient
     @Column(name="FULL_NAME", nullable = false)
     private String name;
-    @Temporal(TemporalType.DATE)
-    public Date getBirthDay() {
-        return birthDay;
-    }
-
-    public void setBirthDay(Date birthDay) {
-        this.birthDay = birthDay;
-    }
-
-    private Date birthDay;
+//    @Temporal(TemporalType.DATE)
+//    private Date birthDay;
+//    public Date getBirthDay() {
+//        return birthDay;
+//    }
+//
+//    public void setBirthDay(Date birthDay) {
+//        this.birthDay = birthDay;
+//    }
 
     public int getRollNo(){
         return rollNo;
